@@ -11,6 +11,10 @@
 		442A9EDC2983BB0D00395D9A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A9EDB2983BB0D00395D9A /* ContentView.swift */; };
 		442A9EDE2983BB0F00395D9A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442A9EDD2983BB0F00395D9A /* Assets.xcassets */; };
 		442A9EE12983BB0F00395D9A /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 442A9EE02983BB0F00395D9A /* Preview Assets.xcassets */; };
+		442A9EEB2983C94300395D9A /* tokyo.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 442A9EEA2983C94300395D9A /* tokyo.MOV */; };
+		442A9EED2983C9AF00395D9A /* LoopingPlayer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A9EEC2983C9AF00395D9A /* LoopingPlayer.swift */; };
+		442A9EEF2983D3A600395D9A /* kyoto.MOV in Resources */ = {isa = PBXBuildFile; fileRef = 442A9EEE2983D3A600395D9A /* kyoto.MOV */; };
+		442A9EF12983D66600395D9A /* Card.swift in Sources */ = {isa = PBXBuildFile; fileRef = 442A9EF02983D66600395D9A /* Card.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +23,10 @@
 		442A9EDB2983BB0D00395D9A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		442A9EDD2983BB0F00395D9A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		442A9EE02983BB0F00395D9A /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		442A9EEA2983C94300395D9A /* tokyo.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = tokyo.MOV; sourceTree = "<group>"; };
+		442A9EEC2983C9AF00395D9A /* LoopingPlayer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoopingPlayer.swift; sourceTree = "<group>"; };
+		442A9EEE2983D3A600395D9A /* kyoto.MOV */ = {isa = PBXFileReference; lastKnownFileType = video.quicktime; path = kyoto.MOV; sourceTree = "<group>"; };
+		442A9EF02983D66600395D9A /* Card.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Card.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,8 +59,11 @@
 		442A9ED82983BB0D00395D9A /* JaponExe */ = {
 			isa = PBXGroup;
 			children = (
-				442A9ED92983BB0D00395D9A /* JaponExeApp.swift */,
+				442A9EE92983C92500395D9A /* VideoAssets */,
 				442A9EDB2983BB0D00395D9A /* ContentView.swift */,
+				442A9EEC2983C9AF00395D9A /* LoopingPlayer.swift */,
+				442A9ED92983BB0D00395D9A /* JaponExeApp.swift */,
+				442A9EF02983D66600395D9A /* Card.swift */,
 				442A9EDD2983BB0F00395D9A /* Assets.xcassets */,
 				442A9EDF2983BB0F00395D9A /* Preview Content */,
 			);
@@ -65,6 +76,15 @@
 				442A9EE02983BB0F00395D9A /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		442A9EE92983C92500395D9A /* VideoAssets */ = {
+			isa = PBXGroup;
+			children = (
+				442A9EEE2983D3A600395D9A /* kyoto.MOV */,
+				442A9EEA2983C94300395D9A /* tokyo.MOV */,
+			);
+			path = VideoAssets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -127,6 +147,8 @@
 			files = (
 				442A9EE12983BB0F00395D9A /* Preview Assets.xcassets in Resources */,
 				442A9EDE2983BB0F00395D9A /* Assets.xcassets in Resources */,
+				442A9EEB2983C94300395D9A /* tokyo.MOV in Resources */,
+				442A9EEF2983D3A600395D9A /* kyoto.MOV in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +161,8 @@
 			files = (
 				442A9EDC2983BB0D00395D9A /* ContentView.swift in Sources */,
 				442A9EDA2983BB0D00395D9A /* JaponExeApp.swift in Sources */,
+				442A9EED2983C9AF00395D9A /* LoopingPlayer.swift in Sources */,
+				442A9EF12983D66600395D9A /* Card.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
